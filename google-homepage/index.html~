@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Google</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class="navbar">
+			<a href="#">+Tú</a>
+			<a href="#">Gmail</a>
+			<a href="#">Imágenes</a>
+			<a class="apps" href="#"></a>
+			<a class="btn" href="#">Iniciar sesión</a>
+		</div>
+		<div class="container">
+			<div id="logo">
+				<div class="img"></div>
+				<div class="country"></div>
+			</div>
+			<form action="/search" method="get">
+				<div class="text-input">
+					<input type="text">
+					<span></span>
+				</div>
+				<button>Buscar en Google</button>
+				<button>Me siento con suerte</button>
+			</form>
+		</div>
+		<div class="footer">
+			<div>
+				<a href="#">Publicaciones</a>
+				<a href="#">Negocios</a>
+				<a href="#">Acerca de</a>
+			</div>
+			<div>
+				<a href="#">Privacidad y condiciones</a>
+				<a href="#">Preferencias</a>
+				<a href="#">Google.com</a>
+			</div>
+		</div>
+	</body>
+</html>
