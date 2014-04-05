@@ -58,12 +58,14 @@ function reduceOpacity(elem) {
 }
 
 function displayGrid (n) {
-	var length = n*n;
 	var size = 960;
-	var boxSize = parseInt((960 - 4*n)/n);1
+	var boxSize = (960 - 4*n)/n;
 	var wrap = $(".wrap").html("");
-	for (var i = 0; i < length; i++) {
-		wrap.append( $("<div></div>").addClass("square").height(boxSize).width(boxSize) );
+	for (var j = 0; j < n; j++) {
+		for (var i = 0; i < n; i++) {
+			wrap.append( $("<div></div>").addClass("square").height(boxSize).width(boxSize) );
+		}
+		wrap.append($("<div></div>").css("clear", "both"));
 	}
 }
 
